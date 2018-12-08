@@ -1,0 +1,84 @@
+.yellow {
+  color: #FCCA46;  /*yellow*/
+}
+
+.skyBlue {
+  color: #61DBFB;  /*blue*/
+}
+
+.orange {
+  color: #FE7F2D; 
+}
+
+.offwhite{
+  color: #EDEBD7;
+}
+
+.pushyButton {
+  padding: 0.75rem 1rem;
+  border-radius: 0.25rem;
+  margin: 0.25rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pushyButton.dark{
+  color: white;
+  background-color: #FCCA46;  /*yellow*/
+  border-color: #FCCA46;
+}
+
+.floatRightContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1rem;
+}
+
+.floatLeftContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 1rem;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.centerColumnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.helloBanner {
+  width: 100%;
+  display: flex;
+  border-bottom: 0.1rem solid black;
+}
+
+.helloBanner h4{
+  padding-left: 1rem;
+  flex: 1 1 75%;
+}
+
+.helloBanner button{
+  flex: 0 0 25%;
+  border: 0.1rem solid #FF595E;
+  background-color: #FF595E;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border-radius: 0.25rem 0rem 0rem 0.25rem; /* top left, top right, bottom right, bottom left */
+}
+
+.noMargins {
+  margin: 0;
+}
+
+.bigInput {
+    padding: 0.5rem;
+    font-size: 2rem;
+}

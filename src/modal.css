@@ -1,0 +1,54 @@
+.modal{
+    padding: 2rem;
+    padding-top: 0rem;
+    display: flex;
+    flex-direction: column;
+    background: #61DBFB;  /*blue*/
+    font-size: 2rem;
+    align-items: center;
+    border: #FCCA46 0.1rem solid;  /*yellow*/
+}
+
+.modal * {
+    margin: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.modal input{
+    padding: 0.5rem;
+    font-size: 2rem;
+}
+
+.modal div {
+    padding: 1.5rem;
+}
+
+.modal button {
+    padding: 1rem 0.5rem;
+    width: 50%;
+    border: 0;
+}
+
+.errorMessage{
+    color: #FF595E;  /*red*/
+    width: 100%;
+    text-align: center;
+}
+
+.background{
+    background-color: rgb(40,44,52,0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.display-none{
+    display: none;
+}
