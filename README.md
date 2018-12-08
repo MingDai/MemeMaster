@@ -1,5 +1,19 @@
 # MemeMaster
 
+
+##URLS (Paths)
+"/" = HomePage for signing up and singing in
+"/memes" = View Memes all memes under this particular user 
+"/memes/edit" = Create new memes to save to Firebase
+
+## Repository = https://github.com/MingDai/MemeMaster.git
+
+## Tech Stack
+ReactJS
+ReactRouter
+Firebase
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
